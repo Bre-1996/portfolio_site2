@@ -50,7 +50,6 @@ h3 {
 	color: #1F1F1F;
 }
 
-
 /*article section*/
 #article {
 	border-radius: 5px;
@@ -72,6 +71,7 @@ article .blog-content {
 	display: flex;
 	flex-direction: row;
 	flex: 4 1 85%;
+	scroll-margin-top: 200px;
 }
 article .blog-content .blog-content-container {
 	padding: 2% 4% 8%;

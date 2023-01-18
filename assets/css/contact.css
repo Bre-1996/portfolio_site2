@@ -102,14 +102,15 @@ body{
 /*Logo & toggler*/
 @media (max-width: 560px){
 	.logo{
-	height: 46px;
-	margin-right: 30px;
-		}
-
-.navbar-toggler {
-    top: 4.5%;
-}
+		height: 40px;
+			}
+	
+	.navbar-toggler {
+		top: 4.8%;
+		zoom: 0.7;
 	}
+}
+
 
 /*contact section*/
 @media (max-width: 800px){
