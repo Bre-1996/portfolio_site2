@@ -334,3 +334,16 @@ grid-row: span 2;
 	padding: 8px;
 		}
 	}
+
+	@media (max-width: 431px){
+		.aboutimg{
+			display: block;
+		margin-left: 18px;
+  		width: 80%;
+		}
+	
+		article .article-content, article .article-content .article-content-container{
+			text-align: center;
+			margin: 2px;
+		}
+	}

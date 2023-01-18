@@ -169,6 +169,18 @@ footer {
 	}
 }
 
+/*Logo & toggler*/
+@media (max-width: 560px){
+	.logo{
+		height: 40px;
+			}
+	
+	.navbar-toggler {
+		top: 3.7%;
+		zoom: 0.7;
+	}
+}
+
 /*Jump to section*/
 @media (max-width: 1160px) {
 	.jumpsection-container {
@@ -213,6 +225,23 @@ footer {
 		transform: none;
 		transform-origin: 0;
 	}
+}
+
+/* images & text */
+@media (max-width: 400px){
+      article img{
+		display: block;
+		margin-left: 18px;
+  		width: 80%;
+	  }
+
+	  article .blog-content{
+		text-align: center;
+			margin: 2px;
+	  }
+	  p{
+		word-spacing: 2px;
+	  }
 }
 
 
