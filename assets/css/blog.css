@@ -169,6 +169,12 @@ footer {
 	}
 }
 
+@media (max-width: 500px){
+	.titlecontainer{
+		padding-top: 10px;
+	}
+}
+
 /*Logo & toggler*/
 @media (max-width: 560px){
 	.logo{
